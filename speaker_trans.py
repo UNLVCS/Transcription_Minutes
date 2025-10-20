@@ -15,7 +15,7 @@ DetectorFactory.seed = 0
 # ---- CONFIGURATION ---- #
 AUDIO_PATH = "DL-3224001001_2025.01.03.wav"
 CHUNK_LENGTH_MS = 60 * 1000  # 1 minute chunks
-HUGGINGFACE_TOKEN = "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"
+HUGGINGFACE_TOKEN = ""
 # Convert string to torch.device object
 DEVICE_STR = "cuda" if torch.cuda.is_available() else "cpu"
 DEVICE = torch.device(DEVICE_STR)
