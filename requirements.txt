@@ -1,0 +1,6 @@
+torch>=2.0.0
+whisperx>=3.1.1
+pyannote.audio>=3.1.0
+pydub>=0.25.1
+langdetect>=1.0.9
+numpy>=1.24.0

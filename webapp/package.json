@@ -1,0 +1,35 @@
+{
+  "name": "transcription-webapp",
+  "version": "1.0.0",
+  "description": "Audio Transcription Web Application with User Management",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@prisma/client": "^5.9.1",
+    "next-auth": "^4.24.5",
+    "bcryptjs": "^2.4.3",
+    "formidable": "^3.5.1",
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/formidable": "^3.4.5",
+    "typescript": "^5.3.3",
+    "prisma": "^5.9.1",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.33",
+    "autoprefixer": "^10.4.17",
+    "ts-node": "^10.9.2"
+  }
+}
